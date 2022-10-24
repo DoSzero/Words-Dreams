@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_background"
+    tools:context=".view.EasyActivity">
+
+    <TextView
+        android:id="@+id/textScreen"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:textSize="26sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Время" />
+
+
+    <ImageView
+        android:id="@+id/bigboss"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/staraim"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
+
+
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:text="Отличная работа!!"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="26sp" />
+
+
+    <Button
+        android:id="@+id/btn_toHome"
+        style="@style/primary_button"
+        android:layout_margin="40dp"
+        android:background="@drawable/button_gradient"
+        android:text="Вернуться домой"
+        app:backgroundTint="@null" />
+
+</LinearLayout>
